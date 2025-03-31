@@ -1,0 +1,134 @@
+.project-content p{
+    color: white
+}
+
+.project-content{
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-image: linear-gradient(to bottom left, rgb(0, 0, 0), rgb(121, 121, 121));
+    min-height: 100vh;
+
+}
+.project-container{
+    display: flex;
+    flex-direction: row;
+    min-width: 750px;
+    justify-content: space-between;
+    border-top: solid;
+    border-color: white;
+    border-width: 1px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    
+}
+.project-title p{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.project-img-container{
+    display: flex;
+    padding: 10px;
+    flex: 1;
+    min-width: 400px;
+    max-width: 600px;
+    gap: 5px;
+}
+.project-description{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+    min-width: 400px;
+    max-width: 600px;
+}
+
+.project-img-container img{
+    height: 100%;
+    width: 100%;
+    min-height: 300px;
+    object-fit: contain;
+}
+
+
+.project-container2{
+    display: flex;
+    flex-direction: row-reverse;
+    min-width: 750px;
+    justify-content: space-between;
+    border-top: solid;
+    border-color: white;
+    border-width: 1px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    
+}
+.project-description h2{
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.project-description2{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.project-description2 p{
+    border: solid;
+    border-width: 1px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.project-img-container-cashier{
+    display: flex;
+    padding: 10px;
+    flex: 1;
+    min-width: 400px;
+    max-width: 600px;
+    gap: 5px;
+    flex-direction: column;
+}
+.project-img-container-cashier img{
+    height: 100%;
+    width: 100%;
+    
+    object-fit: contain;
+}
+
+@media (max-width:860px){
+    .project-container{
+        flex-direction: column-reverse;
+        align-items: center;
+        min-width: 200px;
+    }
+    .project-container2{
+        flex-direction: column-reverse;
+        align-items: center;
+        min-width: 200px;
+    }
+    .project-description{
+        min-width: 200px;
+        
+    }
+    .project-img-container{
+        min-width: 200px;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .project-img-container div{
+        max-width: 250px;
+        min-width: 150px
+    }
+    .project-img-container-cashier{
+        min-width: 200px;
+    }
+
+}
