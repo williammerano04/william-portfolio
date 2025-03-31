@@ -72,4 +72,10 @@
         align-items: center;
         min-width: 200px;
     }
+    .personal-work-description{
+        min-width: 200px;
+    }
+    .personal-work-img-container{
+        min-width: 200px;
+    }
 }
