@@ -1,0 +1,81 @@
+.work-experience-content{
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-image: linear-gradient(to bottom left, rgb(0, 0, 0), rgb(121, 121, 121));
+    min-height: 100vh;
+    padding-bottom: 50px;
+    
+}
+.work-experience-content p{
+    color: white;
+}
+.work-experience-content h2,h3{
+    font-family: "Poppins", sans-serif;
+}
+.work-experience-container{
+    max-width: 700px;
+    height: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column
+
+}
+.company-name-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.company-logo-container{
+    width: 100px;
+    height: auto;
+}
+.company-logo{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+.company{
+    border-bottom: solid;
+    border-color: rgb(172, 172, 172, 50%);
+    border-width: 1px;
+    padding-bottom: 30px;
+}
+.company2{
+    padding-bottom: 30px;
+}
+
+.company p,
+.company2 p{
+    color: black;
+}
+.job-position-container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    gap: 10px;
+    padding-left: 30px;
+}
+.company i,
+.company2 i{
+    font-size: 10px;
+    padding-top: 7px;
+    color: rgb(155, 155, 155)
+}
+.job-position-container p{
+    font-size: 16px;
+}
+.job-description-container{
+    margin-bottom: 20px;
+}
+.job-description-container p{
+    font-size: 14px;
+    color: grey;
+}

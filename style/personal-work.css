@@ -46,6 +46,10 @@
     flex: 1;
     min-width: 400px;
     max-width: 600px;
+    transition: 1s;
+}
+.personal-work-img-container:hover{
+    transform: scale(1.1);
     
 }
 .personal-work-img-container img{
@@ -59,7 +63,7 @@
     flex: 1;
     min-width: 400px;
     max-width: 600px;
-    padding: 10px;
+    padding: 20px;
 }
 @media (max-width:860px){
     .personal-work-container{

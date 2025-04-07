@@ -27,13 +27,13 @@
 .pp-img-container{
     display: flex;
     flex: 1;
-    min-width: 400px;
-    max-width: 600px;
+    max-width: 300px;
+    max-height: 300px;
     justify-content: center;
 }
 .pp-img{
-    width: 300px;
-    height: 300px;
+    max-width: 300px;
+    max-height: 300px;
     border-radius: 10px;
 }
 .icon-logos{
@@ -64,5 +64,8 @@
     }
     .about-container{
         min-width: auto;
+    }
+    .pp-img{
+        min-width: 100px
     }
 }
